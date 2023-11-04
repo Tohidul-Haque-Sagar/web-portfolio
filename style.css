@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -7,8 +8,99 @@ h1{
 .name-highlight{
     color: #031cd7;
 }
+.orange-highLight{
+    color: orange;
+}
 .half-width{
-    width: 50%;
+    /* border: 1px solid red; */
+    width: 40%;
     float: left;
-    padding-bottom: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right:2%;
+    height: 500px;
+
+}
+
+section img{
+    height: 500px;
+}
+.top-banner{
+    /* border: 1px solid red; */
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(50deg ,lightSalmon,tomato);
+
+}
+p{
+    color: dimgrey;
+}
+.education{
+    /* border: 1px solid red; */
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+    /* padding: 10px; */
+    /* margin-left: 50px 0px; */
+}
+.expreience{
+    background-image: url("images/orange.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    height: 1200px;
+}
+.single-club-card{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 500px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 40%;
+    background-color: white;
+}
+.club-logo{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sportsClub{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+}
+#roboticsClub{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,rgb(250, 188, 1));
+    border-image-slice: 1;
+}
+#programmingClub{
+    border-left: 5px solid;
+    border-image: linear-gradient(black,skyblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+}
+.contact-details {
+    font-size: 16px;
+    margin-top: 10px;
 }
