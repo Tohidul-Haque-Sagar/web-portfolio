@@ -15,11 +15,26 @@ h1{
     /* border: 1px solid red; */
     width: 40%;
     float: left;
+    margin-top: 5%;
     margin-left: 5%;
     padding-left: 2%;
     padding-right:2%;
     height: 500px;
 
+}
+.four-part img{
+    height: 300px; width:100%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.four-part{
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 1%;
+    padding-right:1%;
+    background-color: #d4d8f7;
+    height: 500px;
 }
 
 section img{
@@ -29,7 +44,7 @@ section img{
     /* border: 1px solid red; */
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    margin: 50px 0px;
+    margin-bottom: 50px;
 }
 section{
     height: 500px;
@@ -98,9 +113,62 @@ footer p{
     background-color: #333;
             color: #fff;
             padding: 20px;
+            margin-bottom: 1%;
+            margin-top: 1%;
             text-align: center;
 }
 .contact-details {
     font-size: 16px;
     margin-top: 10px;
 }
+.hover:hover{
+    background-color: azure;
+    size: 10px;
+    color: #333;
+}
+.achivement{
+    background-image: url(images/latest-work-bg.png);
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.research{
+    background-image: url(images/latest-work-bg.png);
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.research img{
+    height: 250px; 
+    width:100%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+menu{
+    margin: 0;
+    background-color: #333;
+}
+menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #18e141;
+  }
